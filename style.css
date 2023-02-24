@@ -1,0 +1,93 @@
+body {
+  background-color: #f3f2ed;
+  font-family: MADE TOMMY Soft;
+}
+
+#hastag {
+  text-align: left;
+  padding-top: 500px;
+  margin-right: -110px;
+  padding-left: 10px;
+  font-weight: 400;
+  line-height: 21px;
+  font-size: 17px;
+}
+
+.rectangle {
+  width: 240px;
+  height: 97px;
+  background-color: rgba(255, 243, 178, 0.95);
+  filter: opacity(1px);
+  border-radius: 3px;
+  margin-top: -180px;
+}
+
+#rectangle {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+#Shop {
+  margin-top: 35px;
+  text-align: center;
+  fill-opacity: 0%;
+  filter: none;
+}
+
+#sepatu1 {
+  width: 1065.83px;
+  height: 1065.83px;
+  margin-left: 100px;
+  margin-top: -120px;
+}
+
+#shadow {
+  margin-left: 400px;
+  margin-top: -100px;
+  position: absolute;
+  width: 600px;
+  height: 39px;
+  background: #000000;
+  opacity: 0.5;
+  filter: blur(25px);
+  transform: rotate(-2.09deg);
+}
+
+#sepatu2 {
+  position: absolute;
+  width: 382.85px;
+  padding-top: 450px;
+}
+
+#quote {
+  position: absolute;
+  width: 198px;
+  height: 43px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #3c4043;
+}
+
+.footer2 {
+  width: 272px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #80868b;
+  margin-left: 75px;
+}
+
+.ig {
+  margin-right: 40px;
+  padding-left: 30px;
+}
+
+.twit,
+.ig {
+  color: #80868b;
+}
