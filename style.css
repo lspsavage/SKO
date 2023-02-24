@@ -3,6 +3,8 @@ body {
   font-family: MADE TOMMY Soft;
 }
 
+/* ------------------------------------------------------------------index.html------------------------------------------------------------------------- */
+
 #hastag {
   text-align: left;
   padding-top: 500px;
@@ -80,6 +82,7 @@ body {
   letter-spacing: 0.05em;
   color: #80868b;
   margin-left: 75px;
+  padding-top: 20px;
 }
 
 .ig {
@@ -90,4 +93,37 @@ body {
 .twit,
 .ig {
   color: #80868b;
+}
+
+/*---------------------------------------------------------------------- Shop.html --------------------------------------------------------------------------------*/
+
+.cmp {
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.cmp1 {
+  padding-top: 70px;
+}
+
+.card {
+  background-color: #f3f2ed;
+  text-decoration: none;
+}
+
+.card-text {
+  color: #3c4043;
+}
+
+.card-idr {
+  color: #7c0000;
+}
+
+.ven {
+  padding-top: 60px;
+  font-size: 20px;
+}
+
+.ven1 {
+  padding-top: 90px;
 }
