@@ -3,6 +3,29 @@ body {
   font-family: MADE TOMMY Soft;
 }
 
+#box {
+  background-color: #f3f2ed;
+  width: 275px;
+  height: 30px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: opx 25px;
+}
+
+input {
+  width: 240px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 16px;
+}
+
+.fa-magnifying-glass:hover {
+  color: #666666;
+  cursor: pointer;
+}
 /* ------------------------------------------------------------------index.html------------------------------------------------------------------------- */
 
 #hastag {
@@ -59,7 +82,7 @@ body {
 #sepatu2 {
   position: absolute;
   width: 382.85px;
-  padding-top: 450px;
+  margin-top: 450px;
 }
 
 #quote {
