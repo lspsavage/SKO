@@ -19,7 +19,7 @@ input {
   border: none;
   outline: none;
   background: none;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .fa-magnifying-glass:hover {
@@ -27,6 +27,9 @@ input {
   cursor: pointer;
 }
 /* ------------------------------------------------------------------index.html------------------------------------------------------------------------- */
+#navbarNav {
+  font-size: 14px;
+}
 
 #hastag {
   text-align: left;
