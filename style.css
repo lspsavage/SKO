@@ -277,3 +277,75 @@ input {
   margin-left: -137px;
   line-height: 35px;
 }
+
+.Contak > a {
+  text-decoration: none;
+  color: #f3f2ed;
+}
+
+#ala {
+  margin-top: -400px;
+  padding-right: 110px;
+  text-align: left;
+}
+
+.ala {
+  width: 190px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.ala2 {
+  margin-top: -8px;
+}
+
+#bran {
+  display: flex;
+  justify-content: start;
+  padding-left: 120px;
+  margin-top: -230px;
+}
+
+.bran {
+  width: 190px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.brand1 {
+  width: 75px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: -190px;
+}
+
+.brand2 {
+  width: 75px;
+  height: 37px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.brand3 {
+  width: 75px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+#cs {
+  display: flex;
+  justify-content: start;
+  margin-top: -255px;
+}
+
+.icon2 {
+  margin-top: 140px;
+  margin-left: -255px;
+}
