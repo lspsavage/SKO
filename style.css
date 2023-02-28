@@ -232,3 +232,48 @@ input {
   margin-left: 75px;
   padding-top: 20px;
 }
+
+/* ------------------------------------------------------------Blog.html------------------------------------------------------------------- */
+
+#satu {
+  display: flex;
+  justify-content: start;
+  padding-left: 120px;
+  margin-top: -400px;
+}
+
+.title-sko {
+  width: 44px;
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.isi-sko {
+  margin-top: 25px;
+  margin-left: -45px;
+}
+
+#cus {
+  display: flex;
+  justify-content: start;
+  padding-left: 120px;
+  margin-top: -400px;
+}
+
+.cus {
+  width: 190px;
+  margin-right: -50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.Contak {
+  margin-top: 31px;
+  margin-left: -137px;
+  line-height: 35px;
+}
