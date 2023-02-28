@@ -153,3 +153,82 @@ input {
 .ven1 {
   padding-top: 90px;
 }
+
+/* ----------------------------------------------------------------------Our Story------------------------------------------------------------------------------------ */
+
+.cover-body {
+  background-image: url(img/bg2.png);
+  background-size: 100% 100%;
+}
+
+.cover-content {
+  margin-top: -80px;
+  padding-bottom: 241px;
+}
+
+.cover-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 400px;
+}
+
+.coba1 {
+  color: #f3f2ed;
+}
+
+.title-cover {
+  font-size: 60px;
+  font-family: MADE TOMMY Soft;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: lighter;
+  font-style: Poppins;
+  margin-bottom: 170px;
+}
+
+.story {
+  padding-top: 50px;
+  width: 558px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 75px;
+}
+
+.story2 {
+  padding-top: 68px;
+  padding-bottom: 50px;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 52px;
+  text-align: justify;
+}
+
+#logo {
+  background-color: #3c4043;
+  padding-top: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: -160px;
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 151px;
+  color: #f3f2ed;
+}
+
+.footer3 {
+  width: 272px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #80868b;
+  margin-left: 75px;
+  padding-top: 20px;
+}
