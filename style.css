@@ -41,29 +41,6 @@ input {
   font-size: 17px;
 }
 
-.rectangle {
-  width: 240px;
-  height: 97px;
-  background-color: rgba(255, 243, 178, 0.95);
-  filter: opacity(1px);
-  border-radius: 3px;
-  text-decoration: none;
-}
-
-#rectangle {
-  display: flex;
-  justify-content: center;
-  margin-top: -190px;
-}
-
-#Shop {
-  margin-top: 35px;
-  text-align: center;
-  fill-opacity: 0%;
-  filter: none;
-  color: #3c4043;
-}
-
 #sepatu1 {
   width: 1065.83px;
   margin-left: 100px;
@@ -119,6 +96,61 @@ input {
 .twit,
 .ig {
   color: #80868b;
+}
+
+.frame {
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  margin-top: -160px;
+}
+button {
+  margin: 20px;
+  outline: none;
+}
+
+.custom-btn {
+  width: 210px;
+  height: 90px;
+  padding: 10px 70px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-15 {
+  background: #fff3b2;
+  opacity: 0.85;
+  color: #000;
+  z-index: 1;
+  border-radius: 3px;
+}
+.btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: #000;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+}
+.btn-15:hover {
+  color: #fffced;
+}
+.btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-15:active {
+  top: 2px;
 }
 
 /*---------------------------------------------------------------------- Shop.html --------------------------------------------------------------------------------*/
@@ -196,11 +228,11 @@ input {
 }
 
 .story2 {
-  padding-top: 68px;
+  padding-top: 80px;
   padding-bottom: 50px;
   font-family: Poppins;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 52px;
   text-align: justify;
 }
@@ -327,15 +359,15 @@ input {
   width: 75px;
   height: 37px;
   border-radius: 5px;
-  margin-top: 30px;
-  margin-left: 5px;
+  margin-top: -60px;
+  margin-left: -100px;
 }
 
 .brand3 {
   width: 75px;
   height: 35px;
   border-radius: 5px;
-  margin-top: 30px;
+  margin-top: -110px;
   margin-left: 5px;
 }
 
@@ -348,4 +380,80 @@ input {
 .icon2 {
   margin-top: 140px;
   margin-left: -255px;
+}
+
+/* -----------------------------------------------------------------Compass------------------------------------------------------------------ */
+
+.carousel-control-prev {
+  margin-left: -50px;
+  position: absolute;
+  top: 270px;
+  background: #3c4043;
+  padding: 20px;
+  width: 50px;
+  height: 20px;
+}
+
+.carousel-control-next {
+  margin-right: -50px;
+  position: absolute;
+  top: 270px;
+  background: #3c4043;
+  padding: 20px;
+  width: 50px;
+  height: 20px;
+}
+
+.oke {
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+}
+
+.tittle {
+  font-family: "MADE Tommy Soft";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #3c4043;
+}
+
+.radio {
+  width: 18px;
+  border: none;
+  background-color: #fff3b2;
+}
+
+.size {
+  display: flex;
+  justify-content: start;
+}
+
+.lab {
+  margin-top: 55px;
+  margin-left: -18px;
+}
+
+#Shop {
+  margin-top: 25px;
+  text-align: center;
+  fill-opacity: 0%;
+  filter: none;
+  color: #3c4043;
+  font-weight: bold;
+}
+
+.rectangle {
+  width: 200px;
+  height: 80px;
+  background-color: rgba(255, 243, 178, 0.95);
+  filter: opacity(1px);
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+#rectangle {
+  display: flex;
+  justify-content: end;
 }
