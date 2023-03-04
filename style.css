@@ -26,6 +26,20 @@ input {
   color: #666666;
   cursor: pointer;
 }
+
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid #3c4043;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+}
+
 /* ------------------------------------------------------------------index.html------------------------------------------------------------------------- */
 #navbarNav {
   font-size: 14px;
@@ -263,6 +277,19 @@ button {
   color: #80868b;
   margin-left: 75px;
   padding-top: 20px;
+}
+
+.navbar #navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid #f3f2ed;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navbar #navbar-nav a:hover::after {
+  transform: scaleX(0.5);
 }
 
 /* ------------------------------------------------------------Blog.html------------------------------------------------------------------- */
