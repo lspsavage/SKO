@@ -31,7 +31,7 @@ input {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
-  border-bottom: 0.1rem solid #3c4043;
+  border-bottom: 0.15rem solid #3c4043;
   transform: scaleX(0);
   transition: 0.2s linear;
 }
@@ -283,7 +283,7 @@ button {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
-  border-bottom: 0.1rem solid #f3f2ed;
+  border-bottom: 0.15rem solid #f3f2ed;
   transform: scaleX(0);
   transition: 0.2s linear;
 }
@@ -387,7 +387,7 @@ button {
   height: 37px;
   border-radius: 5px;
   margin-top: -60px;
-  margin-left: -100px;
+  margin-left: -99px;
 }
 
 .brand3 {
@@ -395,7 +395,7 @@ button {
   height: 35px;
   border-radius: 5px;
   margin-top: -110px;
-  margin-left: 5px;
+  margin-left: -10px;
 }
 
 #cs {
@@ -483,4 +483,23 @@ button {
 #rectangle {
   display: flex;
   justify-content: end;
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
 }
